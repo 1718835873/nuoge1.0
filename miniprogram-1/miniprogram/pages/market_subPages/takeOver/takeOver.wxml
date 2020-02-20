@@ -1,0 +1,28 @@
+<!-- 收货页面 -->
+<view class="take-over-container">
+  <!-- 时间选择器 -->
+  <view class="order-top">
+    <view class="supply-date">
+      <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+        <view class="picker">
+         供货日期: {{date}}
+        </view>
+      </picker>
+    </view>
+  </view>
+<!-- 时间选择器 -->
+
+<!-- 内容列表区域 -->
+<view class="take-over-list-area">
+  <scroll-view scroll-y="{{true}}" class="scroll-set">
+    <view class="for-list-wrap" wx:for="{{foods}}">
+      <view>产品名称 : {{item.name}}</view>
+      <view>产品编号 : {{item.id}} </view>
+      <view>单价 : {{item.price}}￥</view>
+      <view>数量 : {{item.num}}件</view>
+    </view>
+  </scroll-view>
+</view>
+<!-- 内容列表区域 -->
+<button>确定</button>
+</view>

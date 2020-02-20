@@ -1,0 +1,42 @@
+<!-- 供货单页面 -->
+<view class="supply-orders">
+<!-- 时间选择器 -->
+  <view class="order-top">
+    <view class="supply-date">
+      <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+        <view class="picker">
+         供货日期: {{date}}
+        </view>
+      </picker>
+    </view>
+  </view>
+<!-- 时间选择器 -->
+<!-- 供货单列表 -->
+  <view class="supply-list">
+    <scroll-view scroll-y="{{true}}" class="supply-view">
+      <block class="good-all" wx:for="{{goods}}" wx:key="index">
+        <view class="goods-date">
+          <view>产品名称:<text>{{item.name}}</text></view>
+          <view>产品编号:<text>{{item.id}}</text></view>
+          <view>单价:<text>￥{{item.price}}</text></view>
+          <view>数量:<text>{{item.num}}</text>件</view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+<!-- 供货单列表 -->
+<!-- 底部区域 -->
+  <view class="choose-super">
+    <picker mode="selector"
+            range="{{superArray}}"
+            value="{{index}}"
+            bindchange="bindPickerChange"
+    >卖场选择: {{superArray[index]}}</picker>
+  </view>
+  <view class="supply-btn">
+    <button bindtap="modify">修改</button>
+    <button bindtap="ascertain">确定</button>
+  </view>
+<!-- 底部区域 -->
+</view>
+                                                                                                                                                                                                                                                    

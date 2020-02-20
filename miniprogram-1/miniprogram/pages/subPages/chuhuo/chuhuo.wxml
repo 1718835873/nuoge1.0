@@ -1,0 +1,14 @@
+<view class="supply-cont">
+  <view class="super-name">闲鱼大卖场1号</view>
+  <view class="supply-list">
+    <block wx:for="{{dates}}" wx:key="*this">
+      <view class="item-cont">
+        <view class="item-date">{{item.date}}</view>
+        <view class="item-del" data-index="{{index}}">
+          <image src="{{item.imgUrl}}" class="setMoney" wx:if="{{item.moneyDate}}"></image>
+        </view>
+        <view class="item-look"data-index="{{index}}" bindtap="look">查看</view>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,35 @@
+.supply-orders{
+  margin: 10px;
+}
+.supply-view{
+  height: 400px;
+}
+.supply-list{
+  border: 3px solid #c0c0c0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.goods-date{
+  padding: 10px 4px ;
+  border-bottom: 1px solid #c0c0c0;
+}
+.goods-date>view{
+  height: 26px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+.goods-date>view>text{
+  margin-left: 8px;
+}
+.supply-btn{
+  display: flex;
+  margin-top: 40px;
+}
+.supply-btn>button{
+  border: 1px solid #c0c0c0;
+  background: white;
+  width: 100px;
+  height: 20px !important;
+  font-weight: normal;
+  font-size: 14px;
+}

@@ -1,0 +1,20 @@
+.super-list-cont{
+margin: 20rpx;
+}
+.radio{
+  height: 50rpx;
+  border-bottom: 1px #c0c0c0 solid;
+  padding-bottom: 4rpx;
+  margin-bottom: 40rpx;
+}
+.radio>radio{
+  float: right;
+}
+.btn{
+  margin-top: 60rpx;
+}
+.yesBtn{
+  border:1px solid #c0c0c0;
+  font-weight: 400;
+
+}

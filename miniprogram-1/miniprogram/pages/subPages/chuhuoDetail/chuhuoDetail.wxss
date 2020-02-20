@@ -1,0 +1,133 @@
+.records-cont{
+  margin: 10px;
+}
+.scroll-view{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.img-style{
+  width: 110px;
+  height: 110px;
+}
+.records-body{
+  border:3px solid #c0c0c0;
+}
+.set-btn{
+  height: 50px;
+}
+.addImg,.modify{
+  /* float: right; */
+  margin-top: 6px;
+  margin-bottom: 6px;
+  float: right;
+}
+.scroll-view-y{
+  height: 300px;
+}
+.goods-list{
+  border-bottom: 1px solid #c0c0c0;
+  /* margin-top: 14px; */
+  padding: 10px;
+}
+.goods-list>view{
+  height: 30px;
+}
+.goods-list>view>text{
+  margin-left: 4px;
+}
+/* 下拉框样式 */
+.border-set{
+  width: 120px;
+  border: 1px solid #c0c0c0;
+  height: 24px;
+  display: inline-block;
+  /* display: block; */
+  line-height: 24px;
+}
+.border-set>image{
+  height: 10px;
+  width: 14px;
+  vertical-align: middle;
+  float: right;
+  margin-top: 8px;
+  margin-right: 8px;
+
+}
+.state{
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+}
+.select_box {
+    background-color: #eee;
+    padding: 0 10rpx;
+    width: 114px;
+    position: absolute;
+    top: 1120rpx;
+    left: 160rpx;
+    z-index: 1;
+    overflow: hidden;
+    animation: myfirst 0.5s;
+}
+
+.select_one {
+    height: 60rpx;
+    line-height: 60rpx;
+    border-bottom: 1px solid #ccc;
+}
+.recordes-footer{
+  height: 200px;
+}
+
+
+/* 底部区域 */
+.out-footer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.out-footer>.footer-item{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+.set-row{
+  display: flex;
+  flex-direction: row;
+}
+/* 设置文本*/
+.set-border{
+  border-bottom: 1px solid #c0c0c0;
+  width: 80px;
+  margin-left: 6px;
+}
+.set-mini{
+  margin-left: 6px;
+}
+/* 上传 */
+.set-like-btn{
+  border: 1px solid #c0c0c0;
+  height: 20px;
+  padding: 0px 4px;
+  border-radius: 4px;
+  margin-left: 0px;
+  width: 32px;
+}
+.set-x-scroll{
+  width: 200px;
+  height: 100px;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+.zhengming{
+  width: 80px !important;
+}
+.set-x-footer-img>image{
+  width: 100px;
+  height: 100px;
+}
+.ascertain{
+  margin-top: 80px;
+}

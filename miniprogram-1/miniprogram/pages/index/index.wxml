@@ -1,0 +1,81 @@
+<!-- 管理员
+ -->
+<view class="container" wx:if="{{isLogin==1}}">
+  <view class="cont-search">
+    <searchbar placeholder="请输入卖场"></searchbar >
+  </view>
+  <view class="super-list">
+    <scroll-view scroll-y="true" style="height: 600rpx;">
+    <!-- 注意：scroll-view适用于上下滚动图片 -->
+        <view class="swiper-cont">
+          <view class="left-img">
+            <image src="../../images/photo.png"></image>
+          </view>
+          <view class="right-list-cont">
+            <view class="super-name">闲鱼大卖场</view>
+            <view class="host">负责人:<text>李老板</text></view>
+            <view class="telphone">电话:<text>18324871111</text></view>
+            <view class="address">地址:<text>安徽省芜湖市弋江区</text></view>
+          </view>
+        </view>
+        <view class="swiper-cont">
+          <view class="left-img">
+            <image src="../../images/photo.png"></image>
+          </view>
+          <view class="right-list-cont">
+            <view class="super-name">闲鱼大卖场</view>
+            <view class="host">负责人:<text>李老板</text></view>
+            <view class="telphone">电话:<text>18324871111</text></view>
+            <view class="address">地址:<text>安徽省芜湖市弋江区</text></view>
+          </view>
+        </view>
+        <view class="swiper-cont">
+          <view class="left-img">
+            <image src="../../images/photo.png"></image>
+          </view>
+          <view class="right-list-cont">
+            <view class="super-name">闲鱼大卖场</view>
+            <view class="host">负责人:<text>李老板</text></view>
+            <view class="telphone">电话:<text>18324871111</text></view>
+            <view class="address">地址:<text>安徽省芜湖市弋江区</text></view>
+          </view>
+        </view>
+    </scroll-view>  
+  </view>
+
+  <view class="cont-tag">
+    <view class="tag-item" bindtap="goGonghuo">
+      <image class="tag-item-img" src="../../images/zhi.png"></image>
+      <view>供货</view>
+    </view>
+    <view class="tag-item" bindtap="goSupply">
+      <image class="tag-item-img" src="../../images/order_icon.png"></image>
+      <view>供货单</view>
+    </view>
+    <view class="tag-item" bindtap="goOut">
+      <image class="tag-item-img" src="../../images/chuhuodanguanli.png"></image>
+      <view>出货单</view>
+    </view>
+  </view>
+</view>
+
+
+<!-- 一般用户  卖场 -->
+<view class="market-container" wx:else>
+  <view class="cont-tag">
+    <view class="tag-item" bindtap="goStock">
+      <image class="tag-item-img" src="../../images/zhi.png"></image>
+      <view>库存</view>
+    </view>
+    <view class="tag-item" bindtap="go_market_out">
+      <image class="tag-item-img" src="../../images/order_icon.png"></image>
+      <view>出货</view>
+    </view>
+    <view class="tag-item" bindtap="gotake_over">
+      <image class="tag-item-img" src="../../images/chuhuodanguanli.png"></image>
+      <view>收货</view>
+    </view>
+  </view>
+</view>
+
+<!-- 一般用户  卖场 -->

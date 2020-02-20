@@ -1,0 +1,21 @@
+<view class="get-list-detail-container">
+  <view class="top-scroll-img">
+    <scroll-view scroll-y="{{true}}">
+      <view></view>
+    </scroll-view>
+  </view>
+
+  <view class="get-list-area">
+    <scroll-view class="vertical-scroll" scroll-y="{{true}}">
+      <view class="for-get-list" wx:for="{{foods}}" wx:key="*this">
+        <view class="index-left">产品名称 :{{item.name}}</view>
+        <view class="index-left">产品编号 :{{item.id}}</view>
+        <view class="index-left">售出 :{{item.saleout}} 件</view>
+      </view>
+    </scroll-view>
+
+    <button class="modify" bindtap="modify">修改</button>
+  </view>
+
+  <button class="set-certain">确定</button>
+</view>

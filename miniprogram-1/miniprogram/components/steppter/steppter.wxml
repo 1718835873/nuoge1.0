@@ -1,0 +1,25 @@
+<!--components/steppter/steppter.wxml-->
+<!-- 我是购物车加减单子 -->
+
+<template name="quantity">
+ <view class="stepper">
+    <!-- 减号 -->
+    <text bindtap="bindMinus" 
+          class="{{count<=1?'disabled':'normal'}}"
+            data-index="{{index}}">-</text>
+    <!-- 数值 -->
+    <input  type="number" 
+            value="{{count}}"  
+            bindchange="bindManual" 
+            disabled="disabled"/>
+    <!-- 加号 -->
+    <text bindtap="bindPlus" 
+          class="normal"
+          data-index="{{index}}">+</text>
+  </view>
+</template>
+
+<!-- 如果要使用的话 
+<steppter is="quantity" data="{{item,index:index}}"/>
+
+-->

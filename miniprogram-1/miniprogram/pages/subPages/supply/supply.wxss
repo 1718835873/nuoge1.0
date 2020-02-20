@@ -1,0 +1,25 @@
+.supply-cont{
+  margin: 10px;
+}
+.supply-list{
+  margin-top: 20px;
+}
+.item-cont{
+  display: flex;
+  flex-direction: row;
+  height: 40px;line-height: 40px;
+  border-bottom: 1px solid #c0c0c0;
+}
+.item-cont:first-child{
+   border-top: 1px solid #c0c0c0;
+}
+.item-date{
+  flex: 6;
+}
+.item-del{
+  text-align: center;
+  flex: 2;
+}
+.item-look{
+  flex: 2;
+}

@@ -1,0 +1,237 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx5be97245abee7fdc",
+	"projectname": "miniprogram-1",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/searchSuper/searchSuper",
+					"pathName": "pages/searchSuper/searchSuper",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/gonghuo/gonghuo",
+					"pathName": "pages/subPages/gonghuo/gonghuo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/gonghuodan/gonghuodan",
+					"pathName": "pages/subPages/gonghuodan/gonghuodan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/supply/supply",
+					"pathName": "pages/subPages/supply/supply",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/supplyRecords/supplyRecords",
+					"pathName": "pages/subPages/supplyRecords/supplyRecords",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/chuhuo/chuhuo",
+					"pathName": "pages/subPages/chuhuo/chuhuo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/chuhuoDetail/chuhuoDetail",
+					"pathName": "pages/subPages/chuhuoDetail/chuhuoDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personalCenter/personalCenter",
+					"pathName": "pages/personalCenter/personalCenter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/userConsole/userConsole",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/userConsole/userConsole",
+					"pathName": "pages/storageConsole/storageConsole",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "supermarket-pages/supermarket-index/supermarket-index",
+					"pathName": "supermarket-pages/supermarket-index/supermarket-index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/supermarket-index/supermarket-index",
+					"pathName": "pages/supermarket-index/supermarket-index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/market_subPages/stock/stock",
+					"pathName": "pages/market_subPages/stock/stock",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/market_subPages/market_out/market_out",
+					"pathName": "pages/market_subPages/market_out/market_out",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/supplyRecords/supplyRecords",
+					"pathName": "pages/subPages/supplyRecords/supplyRecords",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/gonghuodan/gonghuodan",
+					"pathName": "pages/subPages/gonghuodan/gonghuodan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/market_subPages/market_out/market_out",
+					"pathName": "pages/market_subPages/market_out/market_out",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/market_subPages/takeOver/takeOver",
+					"pathName": "pages/market_subPages/takeOver/takeOver",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/market_subPages/takeOver/takeOver",
+					"pathName": "pages/personal_super/personalCenter",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal_super/getList/getList",
+					"pathName": "pages/personal_super/getList/getList",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/subPages/chuhuo/chuhuo",
+					"pathName": "pages/subPages/chuhuo/chuhuo",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal_super/getList/getListDetail/getListDetail",
+					"pathName": "pages/personal_super/getList/getListDetail/getListDetail",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal_super/getList/getListDetail/getListDetail",
+					"pathName": "pages/personal_super/getList/outListDetail/outListDetail",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal_super/getList/outListDetail/outListDetail",
+					"pathName": "pages/personal_super/getList/outList/outList",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal_super/getList/outList/outList",
+					"pathName": "pages/personal_super/outList/outLits",
+					"scene": null
+				}
+			]
+		}
+	}
+}

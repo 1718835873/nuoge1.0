@@ -1,0 +1,9 @@
+<view class="login">
+  <form>
+    <view class="form-item">
+      <label>用户名:</label>
+      <input type="text" placeholder="请输入用户名" bindinput="changeTxt" value="{{txt}}"></input>
+    </view>
+  </form>
+  <button bindtap="login">登录</button>
+</view>

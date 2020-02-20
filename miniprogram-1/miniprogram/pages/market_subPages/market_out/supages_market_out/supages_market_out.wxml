@@ -1,0 +1,102 @@
+<!-- 出货商品选择 -->
+<!--miniprogram/pages/subPages/gonghuo/gonghuo.wxml-->
+<view class="gonghuo-cont">
+  <view class="gonghuo-top">
+    <view class="top-left">
+      <image src="../../../../images/iconfontscan.png"></image>
+    </view>
+    <view class="top-right">
+      <searchbar></searchbar>
+    </view>
+  </view>
+
+  <!-- 下面部分 -->
+  <view class="gonghuo-body">
+    <view class="body-cont">
+
+      <!-- 左边 -->
+      <view class="tag-left">
+        <scroll-view class="scroll-cont" scroll-y="true">
+          <view class="tag-item">苹果耳机</view>
+          <view class="tag-item">充电宝</view>
+          <view class="tag-item">数据线</view>
+          <view class="tag-item">移动硬盘</view>
+          <view class="tag-item">手机壳</view>
+          <view class="tag-item">钢化膜</view>
+          <view class="tag-item">苹果耳机</view>
+          <view class="tag-item">充电宝</view>
+          <view class="tag-item">数据线</view>
+          <view class="tag-item">移动硬盘</view>
+          <view class="tag-item">手机壳</view>
+          <view class="tag-item">钢化膜</view>
+          <view class="tag-item">苹果耳机</view>
+          <view class="tag-item">充电宝</view>
+          <view class="tag-item">数据线</view>
+          <view class="tag-item">移动硬盘</view>
+          <view class="tag-item">手机壳</view>
+          <view class="tag-item">钢化膜</view>
+          <view class="tag-item">苹果耳机</view>
+          <view class="tag-item">充电宝</view>
+          <view class="tag-item">数据线</view>
+          <view class="tag-item">移动硬盘</view>
+          <view class="tag-item">手机壳</view>
+          <view class="tag-item">钢化膜</view>
+        </scroll-view>
+      </view>
+      <!-- 左边 -->
+
+      <!-- <右边> -->
+      <view class="cont-right-container">
+        <scroll-view scroll-y="true" class="scroll-cont-right">
+            <!-- 一项 -->
+         <block  wx:for="{{items}}" wx:key="*this">
+          <view class="cont-item" >
+            <view class="cont-img">
+              <image src="../../../../images/photo.png"></image>
+            </view>
+            <view class="right-item">
+              <view>产品名: <text>{{item.name}}</text></view>
+              <view>库存: <text>{{item.save}}</text>件</view>
+              <view>单价: ￥<text>{{item.price}}</text></view>
+              <view class="stepper-all">数量:
+                <!-- Stepper容器 -->
+                <view class="stepper">
+                  <!-- 减号 -->
+                  <text bindtap="bindMinus" 
+                        class="{{item.count<=1?'disabled':'normal'}}"
+                         data-index="{{index}}">-</text>
+                  <!-- 数值 -->
+                  <input  type="number" 
+                          value="{{item.count}}"  
+                          bindchange="bindManual" 
+                          disabled="disabled"/>
+                  <!-- 加号 -->
+                  <text bindtap="bindPlus" 
+                        class="normal"
+                        data-index="{{index}}">+</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </block>
+        </scroll-view>
+      </view>
+      <!-- <右边> -->
+
+    </view>
+  </view>
+  <!-- 底部区域 -->
+  <button class="check-gonghuo" bindtap="ascertain">确定</button>
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

@@ -1,0 +1,39 @@
+.market_out_container{
+  margin: 10px;
+}
+
+.add-imgs-body{
+  margin-top: 20px;
+}
+.pos_img{
+  display: flex;
+  align-items: center;
+}
+.pos_img>button{
+  margin-left: 6px;
+}
+
+.market-scroll-view{
+  width: 100%;
+  display: flex;
+  white-space: nowrap;
+  /* overflow: hidden; */
+   height: 200px;
+   margin-top: 10px;
+}
+.pingzheng-imgs>image{
+  height: 120px;
+  width:120px;
+}
+
+
+
+
+/* 底部 */
+.set-bottom{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -40px !important; 
+ 
+}

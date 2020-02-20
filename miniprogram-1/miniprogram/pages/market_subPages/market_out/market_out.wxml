@@ -1,0 +1,35 @@
+<!-- 发起出货页面 -->
+
+
+<view class="market_out_container">
+  <!-- 时间选择器 -->
+  <view class="order-top">
+    <view class="supply-date">
+      <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+        <view class="picker">
+         供货日期: {{date}}
+        </view>
+      </picker>
+    </view>
+  </view>
+<!-- 时间选择器 -->
+<view class="add-data-container">
+
+</view>
+
+<button bindtap="addData">添加</button>
+
+<view class="add-imgs-body">
+  <view class="pos_img">
+    <view class="pingzheng">出货凭证:</view>
+    <button bindtap="addImg">添加图片</button>
+  </view>
+  <scroll-view class="market-scroll-view" scroll-x="{{true}}">
+    <view class="pingzheng-imgs" >
+      <image src="{{item}}" wx:for="{{pingzhengImg}}"></image>
+    </view>
+  </scroll-view>
+</view>
+
+<button class="set-bottom">确定</button>
+</view>

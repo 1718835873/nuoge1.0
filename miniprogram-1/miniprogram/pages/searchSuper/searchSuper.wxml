@@ -1,0 +1,38 @@
+<view class="search-super">
+  <view class="search-temp">
+    <searchbar></searchbar>
+  </view>
+  <view class="super-list-cont">
+    <scroll-view scroll-y="true" style="height: 500rpx;">
+      <radio-group class="radio-group" bindchange="radioChange">
+      <view class="radio" >
+        <text class="list-super-name">闲鱼大卖场1</text>
+        <radio value="闲鱼大卖场1" checked=""/>
+      </view>
+      <view class="radio" >
+        <text class="list-super-name">闲鱼大卖场1</text>
+        <radio value="闲鱼大卖场1" checked=""/>
+      </view>
+      <view class="radio" >
+        <text class="list-super-name">闲鱼大卖场1</text>
+        <radio value="闲鱼大卖场1" checked=""/>
+      </view>
+      <view class="radio" >
+        <text class="list-super-name">闲鱼大卖场1</text>
+        <radio value="闲鱼大卖场1" checked=""/>
+      </view>
+      <view class="radio" >
+        <text class="list-super-name">闲鱼大卖场1</text>
+        <radio value="闲鱼大卖场1" checked=""/>
+      </view>
+      <view class="radio" >
+        <text class="list-super-name">闲鱼大卖场1</text>
+        <radio value="闲鱼大卖场1" checked=""/>
+      </view>
+    </radio-group>
+    </scroll-view>
+  </view>
+  <view class="btn">
+    <button class="yesBtn" bindtap="yesClick">确定</button>
+  </view>
+</view>

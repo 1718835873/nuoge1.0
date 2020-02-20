@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/personalCenter/personalCenter",
+    "pages/searchSuper/searchSuper",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/subPages/gonghuo/gonghuo",
+    "pages/subPages/gonghuodan/gonghuodan",
+    "pages/subPages/chuhuo/chuhuo",
+    "pages/subPages/supply/supply",
+    "pages/subPages/supplyRecords/supplyRecords",
+    "pages/subPages/chuhuoDetail/chuhuoDetail",
+    "pages/market_subPages/stock/stock",
+    "pages/market_subPages/market_out/market_out",
+    "pages/market_subPages/takeOver/takeOver",
+    "pages/personal_super/personalCenter",
+    "pages/market_subPages/market_out/supages_market_out/supages_market_out",
+    "pages/personal_super/getList/getList",
+    "pages/personal_super/outList/outLits",
+    "pages/personal_super/getList/getListDetail/getListDetail",
+    "pages/personal_super/outList/outListDetail/outListDetail"
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#17abe3",
+    "navigationBarTitleText": "诺哥APP",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./tabbar/shouye.png",
+        "selectedIconPath": "./tabbar/shouye_active.png"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "个人中心",
+        "iconPath": "./tabbar/yonghu.png",
+        "selectedIconPath": "./tabbar/yonghu_active.png"
+      }
+    ],
+    "selectedColor": "#17abe3"
+  },
+  "sitemapLocation": "sitemap.json"
+}

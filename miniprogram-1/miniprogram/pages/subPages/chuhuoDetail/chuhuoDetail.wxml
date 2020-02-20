@@ -1,0 +1,51 @@
+<!-- 供货记录页面 -->
+<view class="records-cont">
+<!-- 轮播图片 -->
+  <view class="scroll-img">
+    <scroll-view scroll-x="{{true}}"  class="scroll-view">
+      <view class="scroll-img-item">
+        <block wx:for="{{goodsImg}}" wx:key="*this">
+          <image src="{{item}}" class="img-style"></image>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+<!-- 轮播图片 -->
+  <view class="records-body">
+    <scroll-view scroll-y="{{true}}" class="scroll-view-y">
+      <block wx:for="{{goods}}" wx:key="{{goods.id}}">
+        <view class="goods-list">
+          <view>产品名称: <text>{{item.name}}</text></view>
+          <view>货号: <text>{{item.id}}</text></view>
+          <view>售出: <text>{{item.num}}件</text></view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+  <view class="out-footer">
+      <view class="footer-item">
+        <label>红包金额:</label>
+        <input type="text" class="set-border"></input>
+      </view>
+      <view class="footer-item">
+        <label>是否支付:</label>
+        <radio color="#17abe3" value="true" class="set-mini"></radio>
+      </view>
+      <view class="set-row footer-item">
+        <view class="zhengming">支付凭证:</view>
+        <view class="set-like-btn" bindtap="upload">上传</view>
+        <view>
+          <scroll-view scroll-x="{{true}}" class="set-x-scroll">
+            <view class="set-x-footer-img">
+              <image src="{{item}}"  wx:for="{{proofUrl}}"></image>
+            </view>
+          </scroll-view>
+        </view>
+      </view>
+  </view>
+ 
+  <view class="ascertain">
+    <button bindtap="ascertain">确定</button>
+  </view>
+
+</view>

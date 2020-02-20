@@ -1,0 +1,8 @@
+<view class="get-list">
+  <view class="for-list-area">
+    <view class="list-wrap" wx:for="{{dateLists}}" wx:key="*this">
+      <view class="left-date">{{item}}</view>
+      <view class="right-check" data-index="{{index}}" bindtap="check">查看</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,70 @@
+<view class="personal-center">
+  <view class="top-personal">
+    <view class="top-titil">个人中心</view>
+    <view class="top-img">
+      <image src="../../images/user-unlogin.png"></image>
+    </view>
+    <view class="userName">未知</view>
+  </view>
+  <view class="personal-body">
+    <view class="index-body">
+      <view class="personal-item">联系方式</view>
+      <view class="set-img" bindtap="modify">
+        <image src="../../images/xiugai.png" class="modify"></image>
+      </view>
+    </view>
+    <view class="index-body">
+      <view class="personal-item">收货地址</view>
+      <view class="set-img" bindtap="modifyAddress">
+        <image src="../../images/xiugai.png" class="modify"></image>
+      </view>
+    </view>
+    <view class="index-body">
+      <view class="personal-item">收获列表</view>
+      <view class="set-img" bindtap="check_take_over">
+        查看
+      </view>
+    </view>
+    <view class="index-body last-index-body">
+      <view class="personal-item">出货列表</view>
+      <view class="set-img" bindtap="check_out">
+        查看
+      </view>
+    </view>
+  </view>
+
+<!-- 要显示的对话框 -->
+<view id="model" hidden="{{flag}}">
+  <view class="hidden-model"></view>
+  <view class="body-model">
+    <view class="body-cont">
+      <view class="model-title">新号码</view>
+      <input class="set-txt" value="{{txtValue}}" bindinput="txt"></input>
+    </view>
+    <view class="footer-btn">
+      <button bindtap="cancel">取消</button>
+      <button bindtap="ascertain">确认</button>
+    </view>
+  </view>
+</view>
+<!-- 要显示的对话框 -->
+
+<!-- 要显示的对话框 -->
+<view id="model_address" hidden="{{flag1}}">
+  <view class="hidden-model"></view>
+  <view class="body-model">
+    <view class="body-cont">
+      <view class="model-title">收货地址</view>
+      <input class="set-txt" value="{{addressValue}}" bindinput="txt_address"></input>
+    </view>
+    <view class="footer-btn">
+      <button bindtap="cancel_address">取消</button>
+      <button bindtap="ascertain_address">确认</button>
+    </view>
+  </view>
+</view>
+<!-- 要显示的对话框 -->
+
+
+</view>
+
